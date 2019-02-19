@@ -35,7 +35,7 @@ Now add some more text to the string in the controller action:
     "Welcome to your app!!!! I BUILT THIS!"
   end
 ```
-Refresh the page in the browser. You should just see `Welcome to your app!!!!`. That's because Rack isn't aware that we made changes. You can shut down your server by going back to terminal and hitting `ctrl` + `c`. 
+Refresh the page in the browser. You should still see `Welcome to your app!!!!`. That's because Rack isn't aware that we made changes. You can shut down your server by going back to terminal and hitting `ctrl` + `c`. 
 
 Start your server back up by entering `rackup app.rb` and now try visiting `localhost:9292` in the browser. It should work and you should see the text `Welcome to your app!!!! I BUILT THIS!` in your browser window.
 
